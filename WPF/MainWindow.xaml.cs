@@ -29,7 +29,9 @@ namespace WPF
 		{
 			//btnStart.Content = btnStart.Content.ToString() == "Stop" ? "Start" : "Stop";
 			//btnStart.Content = btnStart.Content == "Stop" ? "Start" : "Stop";
+			//((Button)sender).Content = ((Button)sender).Content.ToString() == "Stop" ? "Start" : "Stop";
 			(sender as Button).Content = (sender as Button).Content == "Stop" ? "Start" : "Stop";
+
 		}
 	}
 }

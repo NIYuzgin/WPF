@@ -18,10 +18,12 @@
             <RowDefinition />
 
         </Grid.RowDefinitions>
+         
+        <!--TODO: Placeholder-->
 
         <customTextboxControl:ClearableTextBox Grid.Row="1" Width="250" Height="40" />
 
-
+       
 
     </Grid>
 </Window>
